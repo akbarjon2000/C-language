@@ -24,3 +24,4 @@ int * func(){
     printf("address of a: %d\n", &a);
     return &a;
 }
+

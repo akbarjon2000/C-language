@@ -9,6 +9,8 @@ enum Steps{
     step2 = 20,
     step3 = 30
 };
+
+enum Months{March = 3, Apr, May, June, July};
 int main(){
     enum Level myVar = MEDIUM;
     enum Steps myStep = step1;
@@ -16,6 +18,8 @@ int main(){
 
     printf("%d\n", myVar);
     printf("%d\n", step1);
+    printf("%d\n", LOW);
+    printf("%d\n", May);
     return 0;
 
 }
