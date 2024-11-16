@@ -3,6 +3,7 @@
 static int count = 5;
 int external;
 extern void write_extern();
+
 int main(){
     int mount;
     auto int mount2;

@@ -26,3 +26,20 @@ int main(){
     }
     return 0;
 }
+
+/*
+Student 1: Akbarjon,
+Age: 25,
+Class 1: C Lang, Class ID: 110 
+Class 2: Java, Class ID: 111 
+
+Student 2: Abdulloh,
+Age: 24,
+Class 1: Java, Class ID: 111 
+Class 2: Python, Class ID: 112 
+
+Student 3: Ali,
+Age: 27,
+Class 1: Kotlin, Class ID: 261 
+Class 2: HTML, Class ID: 113 
+*/
