@@ -217,3 +217,7 @@ WHERE DNUM = 6 AND PROJECT.PNUMBER = WORKS_ON.PNO and essn = ssn;
 
 
 SELECT * FROM PROJECT;
+
+SELECT salary 
+from employee, department 
+where Dno = dnumber AND UPPER(Dname) = 'hardwere';

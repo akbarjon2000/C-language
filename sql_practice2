@@ -1,0 +1,15 @@
+SELECT FNAME, LNAME
+FROM EMPLOYEE
+where salary > (
+  SELECT MIN(salary) 
+  FROM employee, DEPARTMENT
+  where DNO = Dnumber AND UPPER(Dname) = "RESEARCH"
+);
+
+SELECT * from EMPLOYEE;
+SELECT * from department;
+SELECT * from WORKS_ON;
+
+SELECT Pno 
+from Employee, WORKS_ON
+where ssn = Essn AND UPPER(fname) = 'JOHN' AND UPPER(Lname) = 'JAMES';
