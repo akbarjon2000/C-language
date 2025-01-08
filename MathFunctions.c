@@ -23,6 +23,6 @@ void MOD(){
     double x, fraction, intpart;
     x = 8.2413;
     fraction = modf(x, &intpart);
-    printf("\nfraction: %f, int: %.f", fraction, intpart);
+    printf("\nsqlfraction: %f, int: %.f", fraction, intpart);
 
 }

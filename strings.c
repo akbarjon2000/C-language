@@ -8,7 +8,6 @@ int main(){
 
     char greet1[20] = "Hello";//size of greet1 should be large enough to store another string!
     char greet2[] = "there!";
-
     printf("%lu\n", sizeof(greetings));   // Outputs 13 \0 included
     printf("%lu\n", sizeof(greetings2));  // Outputs 13 \0 included
 

@@ -12,4 +12,10 @@ SELECT * from WORKS_ON;
 
 SELECT Pno 
 from Employee, WORKS_ON
-where ssn = Essn AND UPPER(fname) = 'JOHN' AND UPPER(Lname) = 'JAMES';
+where ssn = Essn AND UPPER(fname) = 'JAMES' AND UPPER(Lname) = 'BORG';
+
+SELECT Fname, Lname
+from employee
+where  NOT EXISTS(
+    
+)

@@ -220,4 +220,12 @@ SELECT * FROM PROJECT;
 
 SELECT salary 
 from employee, department 
-where Dno = dnumber AND UPPER(Dname) = 'hardwere';
+where Dno = dnumber AND UPPER(Dname) = 'HARDWARE';
+
+SELECT FNAME, LNAME
+FROM EMPLOYEE
+where salary > (
+  SELECT MIN(salary) 
+  FROM employee, DEPARTMENT
+  where DNO = Dnumber AND UPPER(DNAME) = "HARDWARE";
+)
